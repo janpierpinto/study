@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+        <title>Tooltips</title>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+          .row {
+              margin-top: 1rem;
+          }
+        </style>        
+    </head>
+    <body>        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempora aut nihil soluta aliquid! Sequi animi, ea eligendi doloribus sunt, asperiores fugit porro incidunt reprehenderit unde error itaque placeat omnis!</p>
+                  <button class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="top" title="Tooltip no topo">
+                    Tooltip Top
+                  </button> 
+                  <button class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="bottom" title="Tooltip no topo">
+                    Tooltip Bottom
+                  </button> 
+                  <button class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="right" title="Tooltip no topo">
+                    Tooltip Right
+                  </button> 
+                  <button class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="left" title="Tooltip no topo">
+                    Tooltip Left
+                  </button> 
+                </div>                
+            </div>
+        </div>
+        <script src="../assets/js/jquery-3.2.1.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script>
+          $(() => {
+            $('[data-toggle="tooltip"]').tooltip();
+          });
+        </script>
+    </body>
+</html>

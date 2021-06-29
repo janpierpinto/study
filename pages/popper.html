@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+        <title>Popper</title>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+          .row {
+              margin-top: 1rem;
+          }
+        </style>        
+    </head>
+    <body>        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                   <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Meu popover" data-content="Janpier dos Santos Gomes Pinto">
+                      Clique aqui para ver o popover
+                   </button>
+                </div>                
+            </div>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="row">
+                <div class="col-12">
+                   <button type="button" class="btn btn-lg btn-secondary" data-container="body" data-placement="top" data-toggle="popover" title="Meu popover" data-content="Janpier dos Santos Gomes Pinto">
+                      Popover no topo.
+                   </button>
+                   <button type="button" class="btn btn-lg btn-secondary" data-container="body" data-placement="bottom" data-toggle="popover" title="Meu popover" data-content="Janpier dos Santos Gomes Pinto">
+                      Popover no baixo.
+                   </button>
+                   <button type="button" class="btn btn-lg btn-secondary" data-container="body" data-placement="right" data-toggle="popover" title="Meu popover" data-content="Janpier dos Santos Gomes Pinto">
+                      Popover no direita.
+                   </button>
+                   <button type="button" class="btn btn-lg btn-secondary" data-container="body" data-placement="left" data-toggle="popover" title="Meu popover" data-content="Janpier dos Santos Gomes Pinto">
+                      Popover no esquerda.
+                   </button>
+                </div>                
+            </div>
+        </div>
+        <script src="../assets/js/jquery-3.2.1.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script>
+          $(() => {
+            $('[data-toggle="popover"]').popover();
+          });
+        </script>
+    </body>
+</html>

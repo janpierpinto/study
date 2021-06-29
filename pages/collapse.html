@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+        <title>Collapse</title>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">        
+    </head>
+    <body>        
+        <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <p>
+                  <a href="#collapse1" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="collapse1">Disparador Href</a>
+                  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Disparador Botão</button>
+                </p>
+                <div class="collapse" id="collapse1">
+                  <div class="card">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique. Corporis minima voluptatum quam illo et! Vel sunt repudiandae at a, fugit dicta aperiam veniam. A quos asperiores cumque molestiae.
+                    </div>
+                  </div>
+                </div>
+                  
+              </div>                
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <p>
+                  <a href="#collapse2" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="collapse1">Disparador Href</a>
+                  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse1">Disparador Botão</button>
+                </p>
+                <div class="collapse" id="collapse2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Item 1</h4>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique. Corporis minima voluptatum quam illo et! Vel sunt repudiandae at a, fugit dicta aperiam veniam. A quos asperiores cumque molestiae.
+                    </div>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Item 2</h4>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, similique. Corporis minima voluptatum quam illo et! Vel sunt repudiandae at a, fugit dicta aperiam veniam. A quos asperiores cumque molestiae.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <div id="accordion" role="tablist">
+                  <div class="card">
+                    <div class="card-header" role="tab" id="header1">
+                      <h5 class="mb-0">
+                        <a href="#collapsee1" data-toggle="collapse" aria-expanded="true" aria-control="collapsee1">
+                          Link Collapse #1
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapsee1" class="collapse show" role="tabpanel" aria-labelledby="header1" data-parent="#accordion">
+                      <div class="card-body">
+                        <h5>Item Collapse #1</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, enim veritatis laborum asperiores id error? Delectus tenetur veniam, sit aut error officiis natus consectetur expedita nesciunt itaque. Doloremque, assumenda cumque.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="header2">
+                      <h5 class="mb-0">
+                        <a href="#collapsee2" data-toggle="collapse" aria-expanded="false" aria-control="collapsee2">
+                          Link Collapse #2
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapsee2" class="collapse" role="tabpanel" aria-labelledby="header2" data-parent="#accordion">
+                      <div class="card-body">
+                        <h5>Item Collapse #2</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, enim veritatis laborum asperiores id error? Delectus tenetur veniam, sit aut error officiis natus consectetur expedita nesciunt itaque. Doloremque, assumenda cumque.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="header3">
+                      <h5 class="mb-0">
+                        <a href="#collapsee3" data-toggle="collapse" aria-expanded="false" aria-control="collapsee3">
+                          Link Collapse #3
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapsee3" class="collapse" role="tabpanel" aria-labelledby="header3" data-parent="#accordion">
+                      <div class="card-body">
+                        <h5>Item Collapse #3</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, enim veritatis laborum asperiores id error? Delectus tenetur veniam, sit aut error officiis natus consectetur expedita nesciunt itaque. Doloremque, assumenda cumque.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <script src="../assets/js/jquery-3.2.1.min.js"></script>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
